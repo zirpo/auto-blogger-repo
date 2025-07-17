@@ -1,8 +1,13 @@
 ---
-title: Willkommen auf meinem Blog
+title: Mein automatisierter Blog
 layout: base.njk
 ---
-
-# Hallo Welt!
-
-Das ist mein erster, automatisch generierter Blogpost.
+# Neueste Beiträge
+<ul>
+{%- for post in collections.post -%}
+  <li>
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
+  </li>
+{%- endfor -%}
+</ul>
+    
