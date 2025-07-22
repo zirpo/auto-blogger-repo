@@ -128,6 +128,87 @@ main {
     font-style: italic;
 }
 
+/* --- Header Navigation (Update) --- */
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.site-navigation li {
+    margin-left: 20px;
+}
+
+.site-navigation a {
+    color: #343a40;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.site-navigation a:hover {
+    color: #007bff;
+}
+
+/* --- About Page --- */
+.about-page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    align-items: start;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+.about-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-info h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.about-info h3 {
+    margin-top: 2rem;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 0.5rem;
+}
+
+.interests-list {
+    list-style: none;
+    padding: 0;
+}
+
+.interests-list li {
+    background-color: #f8f9fa;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive styles for About Page */
+@media (max-width: 768px) {
+    .about-page {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .about-photo {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+}
+
 /* --- Footer --- */
 .site-footer {
     background-color: #343a40;
