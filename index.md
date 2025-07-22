@@ -8,7 +8,7 @@ layout: base.njk
 {%- for post in collections.post | reverse -%}
   <li>
     <a href="{{ post.url }}">{{ post.data.title }}</a>
-    <span class="post-date">{{ post.date.toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' }) }}</span>
+    <span class="post-date">{{ post.date | date: "%d %B %Y" }}</span>
   </li>
 {%- endfor -%}
 </ul>
