@@ -1,7 +1,7 @@
 ---
 title: "The Hidden Human Cost Of Ais Magic"
 date: 2025-07-21
-layout: base.njk
+layout: post.njk
 ---
 # The Hidden Human Cost of AI's "Magic"
 
@@ -40,4 +40,3 @@ What are some solutions? How can we protect developers? What roles do companies 
 ***Disclaimer:** *This blog post is intended for informational purposes only and does not constitute professional advice.*
 
 **Tags:** #AI #ArtificialIntelligence #EthicalAI #DeveloperWellbeing #TechIndustry #Burnout #Innovation #HumanCost #OpenAI #Codex
-

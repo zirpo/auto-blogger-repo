@@ -1,0 +1,10 @@
+---
+layout: base.njk
+---
+<article class="post">
+  <h1>{{ title }}</h1>
+  <span class="post-meta">Veröffentlicht am {{ page.date.toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' }) }}</span>
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
+</article>

@@ -1,7 +1,7 @@
 ---
 title: "Mistral Ai Europes Answer To Openai"
 date: 2025-07-21
-layout: base.njk
+layout: post.njk
 ---
 # Mistral AI: Europe's Answer to OpenAI?
 
@@ -36,4 +36,3 @@ Follow me for more updates on the evolving AI landscape!
 *AI was used to assist in the research and factual drafting of this article. The core argument, opinions, and final perspective are my own.*
 
 Tags: Mistral AI, OpenAI, European AI, Artificial Intelligence, Geopolitics
-

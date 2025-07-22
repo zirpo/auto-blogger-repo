@@ -1,7 +1,7 @@
 ---
 title: "The Humanity Test How Captchas Highlight Our Fragile Systems"
 date: 2025-07-21
-layout: base.njk
+layout: post.njk
 ---
 # The Humanity Test: How CAPTCHAs Highlight Our Fragile Systems
 
@@ -38,4 +38,3 @@ How does a CAPTCHA symbolize our relationship with technology? What are our resp
 *AI was used to assist in the research and factual drafting of this article. The core argument, opinions, and final perspective are my own.*
 
 Tags: CAPTCHA, Technology, Global Security, Human Error, Digital Systems
-
