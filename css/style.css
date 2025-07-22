@@ -222,3 +222,30 @@ main {
 .site-footer p {
     margin: 0;
 }
+
+/* --- Generic Page Content --- */
+.page-content {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+.page-content h1 {
+    margin-top: 0;
+    font-size: 2.5rem;
+}
+
+.page-content h3 {
+    margin-top: 2rem;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 0.5rem;
+}
+
+.last-updated {
+    font-size: 0.9rem;
+    color: #6c757d;
+    font-style: italic;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+}

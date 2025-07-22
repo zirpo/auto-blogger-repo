@@ -6,6 +6,7 @@
 - The index page correctly lists all blog posts.
 - Individual post pages are rendered correctly using the base layout.
 - The "About Me" page has been created and linked in the navigation.
+- The "Now" page has been created and linked in the navigation, with appropriate styling.
 
 ## What's Left to Build
 - The project is currently a minimal viable product.
@@ -14,9 +15,10 @@
 
 ## Current Status
 - The project is stable and functional in its current state.
-- The memory bank has been fully initialized.
+- The memory bank has been fully initialized and updated to reflect the "Now" page implementation.
 - The Eleventy build errors have been resolved.
 - The "About Me" page has been implemented according to "Change Request: BLOG-02".
+- The "Now" page has been implemented according to "Change Request: BLOG-03".
 
 ## Known Issues
 - There are no known bugs or issues at this time.
