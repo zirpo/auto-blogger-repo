@@ -3,7 +3,7 @@
 Title: Add "Now" Page for Real-Time Personal Updates  
 Author: AIficionado (Junior Developer)  
 Date: 2025-07-23  
-Status: Implemented
+Status: Proposed
 
 ### **1\. Introduction & Rationale**
 
