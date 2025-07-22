@@ -19,3 +19,4 @@
 - `index.md` iterates through the `collections.post` to display links to individual posts.
 - Each post file (e.g., `posts/some-post.md`) also uses the `base.njk` layout.
 - The `content` from each markdown file is injected into the `{{ content | safe }}` placeholder in `base.njk`.
+- The `.eleventyignore` file has been updated to exclude the `memory-bank/` directory, preventing Eleventy from processing documentation files as templates.

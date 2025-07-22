@@ -24,3 +24,5 @@
 - The current structure is simple and effective for a basic blog.
 - Future work might involve adding more complex features like categories, tags, or a more sophisticated design.
 - Addressed the Eleventy build error by excluding the change request markdown file from processing.
+- Resolved the `undefined filter: safe` error by ignoring the `memory-bank/` directory in `.eleventyignore`.
+- Fixed the `invalid range syntax` error in `index.md` by updating the date filter to use `"%d %B %Y"`.
