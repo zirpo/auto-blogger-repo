@@ -30,9 +30,15 @@
     - Modified `_includes/base.njk` to add social connection links to the footer.
     - Appended new CSS rules to `css/style.css` for styling the social links and footer layout.
     - Updated `.eleventyignore` to exclude `Change Request_ BLOG-04.md`.
+- Implemented changes from "Change Request: BLOG-05":
+    - Installed `luxon` library.
+    - Modified `.eleventy.js` to include `luxon` and register `readableDate` filter.
+    - Modified `index.md` to use `readableDate` filter.
+    - Modified `_includes/post.njk` to use `readableDate` filter.
+    - Updated `.eleventyignore` to exclude `Change Request_ BLOG-05.md`.
 
 ## Next Steps
-- All changes for "Change Request: BLOG-04" have been implemented and verified.
+- All changes for "Change Request: BLOG-05" have been implemented and verified.
 - The changes have been committed to the repository.
 
 ## Active Decisions and Considerations
@@ -41,3 +47,4 @@
 - Addressed the Eleventy build error by excluding the change request markdown file from processing.
 - Resolved the `undefined filter: safe` error by ignoring the `memory-bank/` directory in `.eleventyignore`.
 - Fixed the `invalid range syntax` error in `index.md` by updating the date filter to use `"%d %B %Y"`.
+- Implemented robust date formatting using `luxon` to resolve Netlify build errors and ensure consistent date display.

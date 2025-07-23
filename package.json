@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/zirpo/auto-blogger-repo/issues"
   },
-  "homepage": "https://github.com/zirpo/auto-blogger-repo#readme"
+  "homepage": "https://github.com/zirpo/auto-blogger-repo#readme",
+  "dependencies": {
+    "luxon": "^3.7.1"
+  }
 }

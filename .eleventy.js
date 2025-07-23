@@ -1,13 +1,17 @@
+const { DateTime } = require("luxon");
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("post", function(collectionApi) {
     return collectionApi.getFilteredByGlob("posts/**/*.md");
   });
 
-  // Copy the `css` directory to the output
+  // Create a custom 'readableDate' filter
+  eleventyConfig.addFilter("readableDate", dateObj => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLLL yyyy");
+  });
+
+  // Passthrough copy for static assets
   eleventyConfig.addPassthroughCopy("css");
-  
-  // --- ADD THIS LINE ---
-  // Copy the `images` directory to the output
   eleventyConfig.addPassthroughCopy("images");
 
   return {

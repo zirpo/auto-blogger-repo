@@ -8,6 +8,7 @@
 - The "About Me" page has been created and linked in the navigation.
 - The "Now" page has been created and linked in the navigation, with appropriate styling.
 - Social connection links have been added to the footer as per "Change Request: BLOG-04".
+- Dates on the homepage and individual blog posts are now correctly formatted using `luxon`, resolving previous build errors.
 
 ## What's Left to Build
 - The project is currently a minimal viable product.
@@ -22,6 +23,7 @@
 - The "Now" page has been implemented according to "Change Request: BLOG-03".
 - The social connection links in the footer have been implemented according to "Change Request: BLOG-04".
 - All changes for "Change Request: BLOG-04" have been implemented, verified, and committed.
+- All changes for "Change Request: BLOG-05" have been implemented, verified, and committed.
 
 ## Known Issues
 - There are no known bugs or issues at this time.
