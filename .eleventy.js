@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
   // Passthrough copy for static assets
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy("favicon_io");
 
   return {
     dir: { input: ".", includes: "_includes", output: "_site" },

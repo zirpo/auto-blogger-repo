@@ -40,9 +40,12 @@
     - Modified `_includes/base.njk` to link Google Fonts and update header branding.
     - Modified `css/style.css` to apply new font pairing and color accent.
     - Skipped favicon creation as per user instruction.
+- Implemented changes from "Change Request: BLOG-07":
+    - Modified `.eleventy.js` to passthrough copy the `favicon_io` directory.
+    - Modified `_includes/base.njk` to update favicon links.
 
 ## Next Steps
-- All changes for "Change Request: BLOG-06" have been implemented and verified.
+- All changes for "Change Request: BLOG-07" have been implemented and verified.
 - The changes will be committed to the repository.
 
 ## Active Decisions and Considerations
@@ -52,4 +55,3 @@
 - Resolved the `undefined filter: safe` error by ignoring the `memory-bank/` directory in `.eleventyignore`.
 - Fixed the `invalid range syntax` error in `index.md` by updating the date filter to use `"%d %B %Y"`.
 - Implemented robust date formatting using `luxon` to resolve Netlify build errors and ensure consistent date display.
-- Skipped favicon implementation due to tool error and user instruction.
