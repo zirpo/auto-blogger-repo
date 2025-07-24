@@ -2,7 +2,7 @@
 title: Mein automatisierter Blog
 layout: base.njk
 ---
-# Neueste Beiträge
+# Latest Posts
 
 <ul class="post-list">
 {%- for post in collections.post | reverse -%}
