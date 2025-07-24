@@ -1,5 +1,5 @@
 ---
-title: Mein automatisierter Blog
+title: A blog by zirpo
 layout: base.njk
 ---
 # Latest Posts
