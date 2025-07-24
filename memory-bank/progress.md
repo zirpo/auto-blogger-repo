@@ -29,6 +29,8 @@
 - All changes for "Change Request: BLOG-05" have been implemented and verified.
 - All changes for "Change Request: BLOG-06" have been implemented and verified.
 - All changes for "Change Request: BLOG-07" have been implemented and verified.
+- All changes for "Change Request: BLOG-08" have been implemented and verified.
+- The post sorting on the homepage has been corrected to display the newest posts first.
 - Eleventy build errors related to processing change request markdown files have been resolved.
 
 ## Known Issues

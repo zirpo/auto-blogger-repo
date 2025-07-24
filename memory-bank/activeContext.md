@@ -43,9 +43,15 @@
 - Implemented changes from "Change Request: BLOG-07":
     - Modified `.eleventy.js` to passthrough copy the `favicon_io` directory.
     - Modified `_includes/base.njk` to update favicon links.
+- Implemented changes from "Change Request: BLOG-08":
+    - Added `postExcerpt` filter to `.eleventy.js`.
+    - Modified `index.md` to display post excerpts and use new list item structure.
+    - Appended new CSS rules to `css/style.css` for post list styling.
+    - Updated `.eleventyignore` to exclude `Change Request_ BLOG-08.md`.
+- Implemented a custom sort function in `.eleventy.js` for the `post` collection to ensure posts are sorted by date in descending order (newest first).
 
 ## Next Steps
-- All changes for "Change Request: BLOG-07" have been implemented and verified.
+- All changes for "Change Request: BLOG-08" and the sorting fix have been implemented and verified.
 - The changes will be committed to the repository.
 
 ## Active Decisions and Considerations
