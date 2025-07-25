@@ -196,7 +196,7 @@ main {
     margin-top: 2rem;
     border-bottom: 2px solid #e9ecef;
     padding-bottom: 0.5rem;
-    font-weight: 700; /* Add this */
+    font-weight: 700;
 }
 
 .interests-list {
@@ -297,4 +297,33 @@ main {
     font-style: italic;
     margin-top: -1.5rem;
     margin-bottom: 2rem;
+}
+
+/* --- Footer Legal Links --- */
+.footer-legal {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-legal .copyright {
+    margin: 0;
+}
+
+.footer-legal a {
+    color: #adb5bd;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.footer-legal a:hover {
+    color: #f8f9fa;
+}
+
+/* --- Update Main Footer Container --- */
+.site-footer .container {
+    gap: 1.5rem;
 }

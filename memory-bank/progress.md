@@ -12,6 +12,8 @@
 - The site now has a distinct visual identity with a unique color scheme and professional typography, as per "Change Request: BLOG-06".
 - The site header has been updated to reflect the new branding.
 - The comprehensive favicon set has been implemented, ensuring cross-browser compatibility as per "Change Request: BLOG-07".
+- Post excerpts are now displayed on the homepage with improved styling as per "Change Request: BLOG-08".
+- The Impressum (legal notice) page has been created and linked in the footer as per "Change Request: BLOG-09".
 
 ## What's Left to Build
 - The project is currently a minimal viable product.
@@ -30,8 +32,11 @@
 - All changes for "Change Request: BLOG-06" have been implemented and verified.
 - All changes for "Change Request: BLOG-07" have been implemented and verified.
 - All changes for "Change Request: BLOG-08" have been implemented and verified.
+- All changes for "Change Request: BLOG-09" have been implemented and verified.
 - The post sorting on the homepage has been corrected to display the newest posts first.
 - Eleventy build errors related to processing change request markdown files have been resolved.
+- The .eleventyignore file has been properly configured to exclude the entire changes_done/ directory.
+- Development server is running successfully at http://localhost:8080/ with no build errors.
 
 ## Known Issues
 - There are no known bugs or issues at this time.
