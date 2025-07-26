@@ -37,6 +37,7 @@
 - Eleventy build errors related to processing change request markdown files have been resolved.
 - The .eleventyignore file has been properly configured to exclude the entire changes_done/ directory.
 - Development server is running successfully at http://localhost:8080/ with no build errors.
+- Implemented responsive layout as per CRQ-002, including viewport meta tag, responsive container, and image rules, and media queries for smaller screens.
 
 ## Known Issues
 - There are no known bugs or issues at this time.

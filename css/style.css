@@ -327,3 +327,26 @@ main {
 .site-footer .container {
     gap: 1.5rem;
 }
+
+/* Responsive Layout Additions from CRQ-002 */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 0.5rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
