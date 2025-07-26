@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/zirpo/auto-blogger-repo#readme",
   "dependencies": {
-    "luxon": "^3.7.1"
+    "luxon": "^3.7.1",
+    "luxor": "^2.1.1"
   }
 }
