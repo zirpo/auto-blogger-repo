@@ -10,10 +10,10 @@
 - Social connection links have been added to the footer as per "Change Request: BLOG-04".
 - Dates on the homepage and individual blog posts are now correctly formatted using `luxon`, resolving previous build errors.
 - The site now has a distinct visual identity with a unique color scheme and professional typography, as per "Change Request: BLOG-06".
-- The site header has been updated to reflect the new branding.
 - The comprehensive favicon set has been implemented, ensuring cross-browser compatibility as per "Change Request: BLOG-07".
 - Post excerpts are now displayed on the homepage with improved styling as per "Change Request: BLOG-08".
 - The Impressum (legal notice) page has been created and linked in the footer as per "Change Request: BLOG-09".
+- The image `images/20250726-title-researche_img.png` is now correctly visible in the `posts/ais-growing-black-box-losing-sight-of-how-ai-thinks.md` post. The issue was resolved by removing a corrupted binary file from the `posts/` directory that was causing Eleventy build errors.
 
 ## What's Left to Build
 - The project is currently a minimal viable product.
