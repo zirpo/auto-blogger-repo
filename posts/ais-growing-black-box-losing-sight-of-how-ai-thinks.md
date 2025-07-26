@@ -4,7 +4,7 @@ date: 2025-07-26
 layout: base.njk
 ---
 
-# AI's Growing Black Box: Losing Sight of How AI Thinks
+# AI's Growing Black Box: Losing Sight of How AI Thinks TESTCHANGE
 
 ![ALT-TEXT Placeholder](/images/20250726-title-researche_img.png)
 
