@@ -3,9 +3,10 @@ title: "Ais Growing Black Box Losing Sight Of How Ai Thinks"
 date: 2025-07-26
 layout: base.njk
 ---
-![ALT-TEXT Placeholder](/images/20250726-title-researche_img.png)
 
 # AI's Growing Black Box: Losing Sight of How AI Thinks
+
+![ALT-TEXT Placeholder](/images/20250726-title-researche_img.png)
 
 The dangers of opaque AI and the urgent need for chain-of-thought transparency.
 
