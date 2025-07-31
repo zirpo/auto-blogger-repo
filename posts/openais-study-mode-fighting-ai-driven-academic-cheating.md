@@ -5,7 +5,7 @@ layout: base.njk
 ---
 # OpenAI's Study Mode: Fighting AI-Driven Academic Cheating?
 
-![ALT-TEXT Placeholder](/images/20250731-title-as-ai-thr_img.png)
+![AI-generated image using the dev model with 30 steps and guidance 3.5. Influenced by LoRAs: v3ctora (0.8), Cyberpunk Background (0.4), and 80s-style Flux (0.3). Resolution: 1200×600.](/images/20250731-title-as-ai-thr_img.png)
 
 
 Can Interactive Learning Curb the Rise of AI-Powered Essay Mills?
