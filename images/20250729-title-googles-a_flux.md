@@ -1,6 +1,0 @@
-This prompt fuses architectural futurism with cinematic lighting to create a powerful metaphor for global AI dominance.  
-```  
-From an aerial perspective, a colossal fortress of interlocking server racks encircles a slowly rotating Earth, each metallic spire alive with flickering LED pathways and streaming data cables; at its heart, suspended like a celestial crown above the highest ramparts, an orb-shaped AI core pulses with cobalt-blue energy, its surface etched in glowing circuit patterns. Soft dawn light filters through drifting mist, sculpting deep shadows and luminous highlights across brushed-steel battlements, while below, the globe’s oceans shimmer in muted turquoise and digital data streams trace neon veins toward the fortress foundation, symbolizing an all-encompassing global network. Rendered in hyperrealistic digital 3D, 8K resolution, with volumetric fog, subtle lens flares, and a cinematic wide-angle aerial shot (24 mm, f/8), with a strong focus on the suspended core to convey both awe and latent menace.  
-```  
-
-Rationale: The narrative builds from the foundational globe upward to the suspended AI core, blending militaristic fortress imagery and advanced technical details to evoke both scale and ominous power.
