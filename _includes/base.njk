@@ -11,19 +11,22 @@
 	<link rel="manifest" href="/favicon_io/site.webmanifest">
 </head>
 <body>
-    <header>
-        <h1><a href="/">{{ metadata.title }}</a></h1>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about/">About</a>
-            <a href="/showcase/" target="_blank" rel="noopener noreferrer">Showcase</a>
-            <a href="/now/">Now</a>
-            <a href="/impressum/">Impressum</a>
-        </nav>
-    </header>
-    <main>
-        {{ content | safe }}
-    </main>
+    <div class="container">
+        <header>
+            <div class="site-branding">
+                <h1><a href="/">{{ metadata.title }}</a></h1>
+            </div>
+            <nav class="site-navigation">
+                <a href="/">Home</a>
+                <a href="/about/">About</a>
+                <a href="/showcase/" target="_blank" rel="noopener noreferrer">Showcase</a>
+                <a href="/now/">Now</a>
+            </nav>
+        </header>
+        <main>
+            {{ content | safe }}
+        </main>
+    </div>
     <footer class="site-footer">
         <div class="container">
             <div class="social-links">

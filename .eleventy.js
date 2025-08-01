@@ -31,6 +31,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("favicon_io");
 
+  // This line fixes the layout issue by creating a layout alias.
+  eleventyConfig.addLayoutAlias("post", "post.njk");
+
   return {
     dir: { input: ".", includes: "_includes", output: "_site" },
   };

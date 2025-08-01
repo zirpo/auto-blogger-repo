@@ -1,10 +1,12 @@
 # Active Context
 
 ## Current Work Focus
-- Completed implementation of Change Request BLOG-11 (Showcase Page Integration)
-- All change requests through BLOG-11 have been successfully implemented
-- Development server is running successfully at http://localhost:8080/
-- CSS and layout issues on the main blog and posts are still unresolved.
+- Implemented site title update to "AIficionado".
+- Removed "Impressum" from the main navigation menu.
+- Aligned the navigation menu to the right (still needs further adjustment).
+- All change requests through BLOG-12 have been successfully implemented.
+- Development server is running successfully at http://localhost:8080/.
+- CSS and layout issues on the main blog and posts have been resolved.
 
 ## Recent Changes
 - The memory bank has just been initialized.
@@ -75,12 +77,15 @@
 - Removed duplicate footer CSS from `css/style.css`.
 
 ## Next Steps
-- All changes through "Change Request: BLOG-11" have been implemented and verified.
+- Site title is updated to "AIficionado".
+- "Impressum" removed from the main navigation menu.
+- Navigation menu alignment to the right still needs further adjustment.
+- All changes through "Change Request: BLOG-12" have been implemented and verified.
 - Development server is running successfully with no build errors.
 - Impressum page is accessible at /impressum/ with proper footer navigation.
 - Ready for any future change requests or enhancements.
 - The "Showcase" interactive presentation is accessible at /showcase/ with proper navigation and the content display issue has been resolved.
-- CSS and layout issues on the main blog and posts are still unresolved.
+- CSS and layout issues on the main blog and posts have been resolved.
 
 ## Active Decisions and Considerations
 - The current structure is simple and effective for a basic blog.

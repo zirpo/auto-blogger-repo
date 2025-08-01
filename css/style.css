@@ -148,6 +148,10 @@ main {
     align-items: center;
 }
 
+.site-navigation {
+    margin-left: auto; /* Pushes the navigation to the right */
+}
+
 .site-navigation ul {
     list-style: none;
     margin: 0;

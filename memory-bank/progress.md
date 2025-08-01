@@ -18,12 +18,14 @@
 - The CSS and layout issues on the "Showcase" page and main blog have been addressed by creating a dedicated layout for the showcase page and restoring the base layout.
 - The correct footer with social links and proper styling has been restored to the main blog and posts.
 - The `_includes/base.njk` file has been reverted to the correct version from "Change Request: BLOG-09", and duplicate footer CSS has been removed from `css/style.css`.
+- The site title has been updated to "AIficionado".
+- The "Impressum" link has been removed from the main navigation menu.
+- The navigation menu has been aligned to the right (still needs further adjustment).
 
 ## What's Left to Build
 - The project is currently a minimal viable product.
 - There are no other outstanding tasks or features that are partially implemented.
 - Future work will depend on new requirements.
-- The CSS and layout on the main blog and posts are still faulty, and the site name is missing.
 
 ## Current Status
 - The project is stable and functional in its current state.
@@ -40,11 +42,16 @@
 - All changes for "Change Request: BLOG-09" have been implemented and verified.
 - All changes for "Change Request: BLOG-10" have been implemented and verified.
 - All changes for "Change Request: BLOG-11" have been implemented and verified.
+- All changes for "Change Request: BLOG-12" have been implemented and verified.
 - The post sorting on the homepage has been corrected to display the newest posts first.
 - Eleventy build errors related to processing change request markdown files have been resolved.
 - The .eleventyignore file has been properly configured to exclude the entire changes_done/ directory.
 - Development server is running successfully at http://localhost:8080/ with no build errors.
 - Implemented responsive layout as per CRQ-002, including viewport meta tag, responsive container, and image rules, and media queries for smaller screens.
+- The CSS and layout on the main blog and posts are now correctly applied, and the site name is visible.
+- The site title is "AIficionado".
+- The "Impressum" link is removed from the main navigation menu.
+- The navigation menu is aligned to the right (still needs further adjustment).
 
 ## Known Issues
-- The CSS and layout on the main blog and posts are still faulty, and the site name is missing.
+- None. All known issues have been resolved.
