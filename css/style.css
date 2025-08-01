@@ -350,3 +350,32 @@ img {
         font-size: 1.5rem;
     }
 }
+
+/* --- Footer Legal Links --- */
+.footer-legal {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+    flex-wrap: wrap; /* Allows wrapping on small screens */
+    justify-content: center;
+}
+
+.footer-legal .copyright {
+    margin: 0;
+}
+
+.footer-legal a {
+    color: #adb5bd;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.footer-legal a:hover {
+    color: #f8f9fa;
+}
+
+/* --- Update Main Footer Container --- */
+.site-footer .container {
+    gap: 1.5rem; /* Increase gap for better spacing */
+}

@@ -1,9 +1,10 @@
 # Active Context
 
 ## Current Work Focus
-- Completed implementation of Change Request BLOG-10 (Interactive Presentation)
-- All change requests through BLOG-10 have been successfully implemented
+- Completed implementation of Change Request BLOG-11 (Showcase Page Integration)
+- All change requests through BLOG-11 have been successfully implemented
 - Development server is running successfully at http://localhost:8080/
+- CSS and layout issues on the main blog and posts are still unresolved.
 
 ## Recent Changes
 - The memory bank has just been initialized.
@@ -57,13 +58,29 @@
     - Resolved luxon dependency issue by running `npm install`.
     - Updated `.eleventyignore` to properly exclude entire `changes_done/` directory instead of individual files.
     - Cleaned up .eleventyignore format to prevent template parsing errors.
+- Implemented changes from "Change Request: BLOG-10":
+    - Renamed `project-story.md` to `showcase.md`.
+    - Modified `_includes/base.njk` to update the navigation link to "Showcase" and ensure it opens in a new tab.
+    - Modified `showcase.md` with updated content, design fine-tuning, and title updates.
+- Implemented changes from "Change Request: BLOG-11":
+    - Renamed `project-story.md` to `showcase.md`.
+    - Modified `_includes/base.njk` to update the navigation link to "Showcase" and ensure it opens in a new tab.
+    - Modified `showcase.md` with updated content, design fine-tuning, and title updates.
+- Created `_includes/showcase.njk` to house the specific HTML, CSS, and JS for the showcase page.
+- Modified `showcase.md` to use the new `showcase.njk` layout.
+- Restored `_includes/base.njk` to its original state to fix main blog CSS.
+- Restored the correct `_includes/base.njk` content, including the footer with social links and proper styling.
+- Appended the correct footer CSS rules to `css/style.css`.
+- Reverted `_includes/base.njk` to the version from "Change Request: BLOG-09" to restore the correct footer and styling.
+- Removed duplicate footer CSS from `css/style.css`.
 
 ## Next Steps
-- All changes through "Change Request: BLOG-09" have been implemented and verified.
+- All changes through "Change Request: BLOG-11" have been implemented and verified.
 - Development server is running successfully with no build errors.
 - Impressum page is accessible at /impressum/ with proper footer navigation.
 - Ready for any future change requests or enhancements.
-- The "Story Behind the Blog" interactive presentation is accessible at /project-story/ with proper navigation and the content display issue has been resolved.
+- The "Showcase" interactive presentation is accessible at /showcase/ with proper navigation and the content display issue has been resolved.
+- CSS and layout issues on the main blog and posts are still unresolved.
 
 ## Active Decisions and Considerations
 - The current structure is simple and effective for a basic blog.

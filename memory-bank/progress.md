@@ -14,12 +14,16 @@
 - Post excerpts are now displayed on the homepage with improved styling as per "Change Request: BLOG-08".
 - The Impressum (legal notice) page has been created and linked in the footer as per "Change Request: BLOG-09".
 - The image `images/20250726-title-researche_img.png` is now correctly visible in the `posts/ais-growing-black-box-losing-sight-of-how-ai-thinks.md` post. The issue was resolved by removing a corrupted binary file from the `posts/` directory that was causing Eleventy build errors.
+- The "Showcase" page has been integrated, renamed, and updated with design and UX improvements as per "Change Request: BLOG-11".
+- The CSS and layout issues on the "Showcase" page and main blog have been addressed by creating a dedicated layout for the showcase page and restoring the base layout.
+- The correct footer with social links and proper styling has been restored to the main blog and posts.
+- The `_includes/base.njk` file has been reverted to the correct version from "Change Request: BLOG-09", and duplicate footer CSS has been removed from `css/style.css`.
 
 ## What's Left to Build
 - The project is currently a minimal viable product.
 - There are no other outstanding tasks or features that are partially implemented.
 - Future work will depend on new requirements.
-- The "Story Behind the Blog" interactive presentation has been integrated and fixed as per "Change Request: BLOG-10".
+- The CSS and layout on the main blog and posts are still faulty, and the site name is missing.
 
 ## Current Status
 - The project is stable and functional in its current state.
@@ -35,6 +39,7 @@
 - All changes for "Change Request: BLOG-08" have been implemented and verified.
 - All changes for "Change Request: BLOG-09" have been implemented and verified.
 - All changes for "Change Request: BLOG-10" have been implemented and verified.
+- All changes for "Change Request: BLOG-11" have been implemented and verified.
 - The post sorting on the homepage has been corrected to display the newest posts first.
 - Eleventy build errors related to processing change request markdown files have been resolved.
 - The .eleventyignore file has been properly configured to exclude the entire changes_done/ directory.
@@ -42,4 +47,4 @@
 - Implemented responsive layout as per CRQ-002, including viewport meta tag, responsive container, and image rules, and media queries for smaller screens.
 
 ## Known Issues
-- There are no known bugs or issues at this time.
+- The CSS and layout on the main blog and posts are still faulty, and the site name is missing.

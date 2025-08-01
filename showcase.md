@@ -1,6 +1,6 @@
 ---
-layout: story
-title: The Story Behind the Blog
+layout: showcase
+title: Showcase | The Story Behind the Blog
 ---
 
 <section id="slide1" class="content-section">
@@ -55,9 +55,9 @@ title: The Story Behind the Blog
 <section id="slide4" class="content-section">
     <h2 class="text-4xl font-bold text-white mb-8">Meet the Team</h2>
     <div id="team-tabs" class="mb-6 flex flex-wrap gap-2 border-b border-[#333]">
-        <button class="tab-btn py-3 px-6 text-lg font-medium border-b-4 border-transparent hover:bg-[#2a2a2a]" data-tab="kurator">kurator</button>
-        <button class="tab-btn py-3 px-6 text-lg font-medium border-b-4 border-transparent hover:bg-[#2a2a2a]" data-tab="blogplus">blogplus</button>
-        <button class="tab-btn py-3 px-6 text-lg font-medium border-b-4 border-transparent hover:bg-[#2a2a2a]" data-tab="laruta">laruta</button>
+        <button class="tab-btn py-3 px-6 text-lg font-medium border-b-4 border-transparent hover:bg-[#2a2a2a] hover:text-[#ffb74d]" data-tab="kurator">kurator</button>
+        <button class="tab-btn py-3 px-6 text-lg font-medium border-b-4 border-transparent hover:bg-[#2a2a2a] hover:text-[#ffb74d]" data-tab="blogplus">blogplus</button>
+        <button class="tab-btn py-3 px-6 text-lg font-medium border-b-4 border-transparent hover:bg-[#2a2a2a] hover:text-[#ffb74d]" data-tab="laruta">laruta</button>
     </div>
     <div id="team-content" class="max-w-3xl">
         <div id="kurator-content" class="tab-content space-y-4 text-lg">
@@ -88,6 +88,7 @@ title: The Story Behind the Blog
     <h2 class="text-4xl font-bold text-white mb-6">The "Magic" Isn't Code, It's Instructions</h2>
     <div class="space-y-4 text-lg max-w-3xl">
         <p>This is the core message. How did I, a "non-coder," build this? I didn't write thousands of lines of code. I wrote **instructions in plain English.** The "source code" for the AI's behavior lives in simple text files.</p>
+        <p>My primary job was to be a good **manager and communicator**, clearly defining the goals for my AI assistant.</p>
     </div>
     <div class="mt-8 max-w-3xl">
         <p class="font-mono text-sm text-gray-500 mb-2">Example from `prompts/write_blog.txt`:</p>
@@ -148,7 +149,7 @@ title: The Story Behind the Blog
             <div class="text-4xl mb-2">🌐</div>
             <h4 class="text-xl font-bold text-white">Netlify Publication</h4>
             <p>Netlify detects the change in the GitHub repo and automatically deploys the new post to the live blog.</p>
-             <a href="https://blog.zirpo.de" target="_blank" class="mt-4 inline-block bg-gray-700 text-white font-semibold py-2 px-5 rounded-lg hover:bg-gray-600 transition-colors">See It Live: blog.zirpo.de</a>
+             <a href="https://blog.zirpo.de" target="_blank" class="mt-4 inline-block bg-[#ffb74d] text-[#1a1a1a] font-semibold py-2 px-5 rounded-lg hover:bg-opacity-90 transition-colors">See It Live: blog.zirpo.de</a>
         </div>
     </div>
 </section>
