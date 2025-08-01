@@ -19,6 +19,7 @@
 - The project is currently a minimal viable product.
 - There are no other outstanding tasks or features that are partially implemented.
 - Future work will depend on new requirements.
+- The "Story Behind the Blog" interactive presentation has been integrated and fixed as per "Change Request: BLOG-10".
 
 ## Current Status
 - The project is stable and functional in its current state.
@@ -33,6 +34,7 @@
 - All changes for "Change Request: BLOG-07" have been implemented and verified.
 - All changes for "Change Request: BLOG-08" have been implemented and verified.
 - All changes for "Change Request: BLOG-09" have been implemented and verified.
+- All changes for "Change Request: BLOG-10" have been implemented and verified.
 - The post sorting on the homepage has been corrected to display the newest posts first.
 - Eleventy build errors related to processing change request markdown files have been resolved.
 - The .eleventyignore file has been properly configured to exclude the entire changes_done/ directory.
