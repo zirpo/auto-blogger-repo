@@ -147,8 +147,19 @@ main {
     display: block;
 }
 
-.post-content p {
+/* Spacing for headings within posts */
+.post-content h2,
+.post-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Consistent typography for paragraphs and list items */
+.post-content p,
+.post-content li {
+    line-height: 1.7;
     margin-bottom: 1.5rem;
+    hyphens: auto;
 }
 
 .post-content blockquote {
@@ -166,11 +177,6 @@ main {
 
     list-style: none;
     padding-left: 0;
-}
-
-.post-content li {
-    margin-bottom: 0.5rem;
-
 }
 
 .post-navigation {
