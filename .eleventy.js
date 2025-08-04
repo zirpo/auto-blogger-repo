@@ -1,11 +1,16 @@
 const { DateTime } = require("luxon");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addCollection("post", function(collectionApi) {
+  eleventyConfig.addPlugin(pluginRss);
+
+  const postsCollection = function(collectionApi) {
     return collectionApi.getFilteredByGlob("posts/**/*.md").sort((a, b) => {
       return b.date - a.date; // Sort by date in descending order (newest first)
     });
-  });
+  };
+  eleventyConfig.addCollection("post", postsCollection);
+  eleventyConfig.addCollection("posts", postsCollection);
 
   // Create a custom 'readableDate' filter
   eleventyConfig.addFilter("readableDate", dateObj => {
