@@ -159,15 +159,6 @@ main {
     margin-bottom: 1.5rem;
 }
 
-.post-content li {
-    margin-bottom: 0.5rem;
-    list-style: disc;
-}
-
-.post-content li::marker {
-    color: var(--muted-text-color);
-}
-
 /* --- Header Navigation (Update) --- */
 .site-header .container {
     display: flex;
