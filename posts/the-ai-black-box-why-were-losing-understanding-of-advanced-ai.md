@@ -1,7 +1,7 @@
 ---
 title: "The Ai Black Box Why Were Losing Understanding Of Advanced Ai"
 date: 2025-07-27
-layout: base.njk
+layout: post
 ---
 
 # The AI Black Box: Why We're Losing Understanding of Advanced AI

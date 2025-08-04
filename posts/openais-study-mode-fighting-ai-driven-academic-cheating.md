@@ -1,7 +1,7 @@
 ---
 title: "Openais Study Mode Fighting Ai Driven Academic Cheating"
 date: 2025-07-31
-layout: base.njk
+layout: post
 ---
 # OpenAI's Study Mode: Fighting AI-Driven Academic Cheating?
 

@@ -1,7 +1,7 @@
 ---
 title: "Meta Rejects Eus Voluntary Ai Guidelines A Sign Of Things To Come"
 date: 2025-07-26
-layout: base.njk
+layout: post
 ---
 # Meta Rejects EU's Voluntary AI Guidelines: A Sign of Things to Come?
 

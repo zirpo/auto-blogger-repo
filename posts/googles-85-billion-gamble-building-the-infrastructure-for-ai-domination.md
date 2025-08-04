@@ -1,7 +1,7 @@
 ---
 title: "Googles 85 Billion Gamble Building The Infrastructure For Ai Domination"
 date: 2025-07-29
-layout: base.njk
+layout: post
 ---
 
 # Google's $85 Billion Gamble: Building the Infrastructure for AI Domination
