@@ -5,14 +5,14 @@ title: Showcase | The Story Behind the Blog
 
 <section id="slide1" class="content-section">
     <div class="max-w-4xl mx-auto text-center flex flex-col items-center justify-center h-full">
-        <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight">How I Built an Automated Content Factory with an AI Assistant</h1>
+        <h1 class="text-5xl md:text-6xl font-bold text-[var(--heading-color)] leading-tight">How I Built an Automated Content Factory with an AI Assistant</h1>
         <p class="mt-4 text-xl md:text-2xl text-gray-400">You don't need to be a coder to build things anymore.</p>
         <p class="mt-8 text-lg font-semibold text-gray-300">By Daniel Zirpoli (aka AIficionado)</p>
     </div>
 </section>
 
 <section id="slide2" class="content-section">
-    <h2 class="text-4xl font-bold text-white mb-6">The Problem: The Manual Content Grind</h2>
+    <h2 class="text-4xl font-bold text-[var(--heading-color)] mb-6">The Problem: The Manual Content Grind</h2>
     <div class="space-y-4 text-lg max-w-3xl">
         <p>The process of creating a high-quality blog post from a simple idea is incredibly time-consuming. It's a journey filled with manual, repetitive steps.</p>
         <ul class="list-disc list-inside space-y-3 pl-4 pt-2">
@@ -26,7 +26,7 @@ title: Showcase | The Story Behind the Blog
 </section>
 
 <section id="slide3" class="content-section">
-    <h2 class="text-4xl font-bold text-white mb-8">The Solution: A Team of AI Specialists</h2>
+    <h2 class="text-4xl font-bold text-[var(--heading-color)] mb-8">The Solution: A Team of AI Specialists</h2>
     <div class="space-y-4 text-lg max-w-3xl">
         <p>Instead of one giant, monolithic program, I created a team of three specialists that work together. This is known as a "microservices" architecture, where each program does one job really well. This design made it much easier for me to make changes to one part without breaking another.</p>
     </div>
@@ -53,7 +53,7 @@ title: Showcase | The Story Behind the Blog
 </section>
 
 <section id="slide4" class="content-section">
-    <h2 class="text-4xl font-bold text-white mb-8">Meet the Team</h2>
+    <h2 class="text-4xl font-bold text-[var(--heading-color)] mb-8">Meet the Team</h2>
     <div id="team-tabs" class="mb-6 flex flex-wrap gap-2 border-b border-[#333]">
         <button class="tab-btn py-3 px-6 text-lg font-medium border-b-4 border-transparent hover:bg-[#2a2a2a] hover:text-[#ffb74d]" data-tab="kurator">kurator</button>
         <button class="tab-btn py-3 px-6 text-lg font-medium border-b-4 border-transparent hover:bg-[#2a2a2a] hover:text-[#ffb74d]" data-tab="blogplus">blogplus</button>
@@ -85,7 +85,7 @@ title: Showcase | The Story Behind the Blog
 </section>
 
 <section id="slide7" class="content-section">
-    <h2 class="text-4xl font-bold text-white mb-6">The "Magic" Isn't Code, It's Instructions</h2>
+    <h2 class="text-4xl font-bold text-[var(--heading-color)] mb-6">The "Magic" Isn't Code, It's Instructions</h2>
     <div class="space-y-4 text-lg max-w-3xl">
         <p>This is the core message. How did I, a "non-coder," build this? I didn't write thousands of lines of code. I wrote **instructions in plain English.** The "source code" for the AI's behavior lives in simple text files.</p>
         <p>My primary job was to be a good **manager and communicator**, clearly defining the goals for my AI assistant.</p>
@@ -102,7 +102,7 @@ title: Showcase | The Story Behind the Blog
 </section>
 
 <section id="slide8" class="content-section">
-    <h2 class="text-4xl font-bold text-white mb-6">The Result: A Human-AI Partnership</h2>
+    <h2 class="text-4xl font-bold text-[var(--heading-color)] mb-6">The Result: A Human-AI Partnership</h2>
     <div class="space-y-4 text-lg max-w-3xl">
         <p>The final output is more than just an automated article; it's the product of a collaboration. The system *does* automate the creation process, but the highest quality result comes from a partnership.</p>
         <p>The AI handles the heavy lifting of drafting and structuring, but a handcrafted final touch from a human editor is what ensures the quality. This system doesn't replace the creator; it empowers them to be a director and editor, focusing on what matters most: the ideas, the message, and the quality that automation alone can't achieve.</p>
@@ -120,7 +120,7 @@ title: Showcase | The Story Behind the Blog
 </section>
 
 <section id="automation" class="content-section">
-    <h2 class="text-4xl font-bold text-white mb-8">Full Automation: The Publishing Pipeline</h2>
+    <h2 class="text-4xl font-bold text-[var(--heading-color)] mb-8">Full Automation: The Publishing Pipeline</h2>
     <div class="space-y-4 text-lg max-w-3xl mb-12">
         <p>This isn't just a set of scripts I run manually. The entire system is deployed as a hands-free, automated pipeline that publishes content without any intervention.</p>
     </div>
@@ -155,7 +155,7 @@ title: Showcase | The Story Behind the Blog
 </section>
   
 <section id="next" class="content-section">
-    <h2 class="text-4xl font-bold text-white mb-6">What's Next? The Road Ahead</h2>
+    <h2 class="text-4xl font-bold text-[var(--heading-color)] mb-6">What's Next? The Road Ahead</h2>
     <div class="space-y-8 text-lg max-w-3xl">
         <div>
             <h3 class="text-2xl font-semibold text-gray-400 mb-3">1. Fully Automated Image Generation</h3>
@@ -177,7 +177,7 @@ title: Showcase | The Story Behind the Blog
 </section>
 
 <section id="slide9" class="content-section">
-    <h2 class="text-4xl font-bold text-white mb-6">Conclusion: The Future is Augmentation, Not Obsolescence</h2>
+    <h2 class="text-4xl font-bold text-[var(--heading-color)] mb-6">Conclusion: The Future is Augmentation, Not Obsolescence</h2>
     <div class="space-y-6 text-xl max-w-3xl">
         <p>This project proves that AI's true power isn't in replacing humans, but in augmenting our abilities. It's a tool that changes the nature of our work for the better.</p>
         <p class="text-2xl font-semibold text-gray-400 p-6 border-l-4 border-[#444] bg-[#222] rounded-r-lg">This doesn't make writers or coders obsolete. It makes them <span class="text-white">architects and quality editors.</span> A purely automated result won't be as good as one that's handcrafted. The key skill is shifting from pure execution to strategic direction and refinement.</p>

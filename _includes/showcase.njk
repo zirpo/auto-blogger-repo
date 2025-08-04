@@ -6,23 +6,25 @@
     <title>{{ title }}</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
     <style>
         .story-body {
             font-family: monospace;
-            background-color: #1a1a1a;
-            color: #e0e0e0;
+            background-color: var(--background-color);
+            color: var(--text-color);
         }
         .nav-link {
             transition: all 0.2s ease-in-out;
+            color: var(--text-color);
         }
         .nav-link.active {
-            background-color: #333;
-            color: #ffb74d;
+            background-color: var(--primary-color);
+            color: var(--background-color);
             font-weight: 600;
         }
         .nav-link:not(.active):hover {
-            background-color: #2a2a2a;
-            color: #ffb74d;
+            background-color: var(--primary-color);
+            color: var(--background-color);
         }
         .content-section {
             display: none;
@@ -36,9 +38,9 @@
             to { opacity: 1; transform: translateY(0); }
         }
         .tab-btn.active {
-            border-color: #ffb74d;
-            background-color: #333;
-            color: #ffb74d;
+            border-color: var(--primary-color);
+            background-color: var(--primary-color);
+            color: var(--background-color);
         }
         .tab-content {
             display: none;
@@ -56,7 +58,7 @@
             top: 50%;
             transform: translateY(-50%);
             font-size: 2rem;
-            color: #555;
+            color: var(--muted-text-color);
         }
         .pipeline-step {
             position: relative;
@@ -69,15 +71,15 @@
             left: 50%;
             transform: translateX(-50%);
             font-size: 2rem;
-            color: #555;
+            color: var(--muted-text-color);
         }
     </style>
 </head>
 <body class="antialiased story-body">
     <div class="flex flex-col md:flex-row min-h-screen">
-        <aside class="w-full md:w-64 bg-[#111] border-r border-[#333] p-6">
-            <a href="/" class="text-lg text-gray-400 hover:text-[#ffb74d] transition-colors">← Back to Blog</a>
-            <h1 class="text-2xl font-bold text-white mt-4 mb-8">Project Showcase</h1>
+        <aside class="w-full md:w-64 bg-[var(--alt-background-color)] border-r border-[var(--border-color)] p-6">
+            <a href="/" class="text-lg text-[var(--muted-text-color)] hover:text-[var(--primary-color)] transition-colors">← Back to Blog</a>
+            <h1 class="text-2xl font-bold mt-4 mb-8">Project Showcase</h1>
             <nav id="main-nav" class="flex flex-row md:flex-col gap-2">
                 <a href="#slide1" class="nav-link p-3 rounded-lg text-left w-full">Introduction</a>
                 <a href="#slide2" class="nav-link p-3 rounded-lg text-left w-full">The Problem</a>
