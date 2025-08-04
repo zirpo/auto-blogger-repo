@@ -173,6 +173,17 @@ main {
 
 }
 
+.post-navigation {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.post-navigation a {
+    font-weight: 500;
+}
+
 /* --- Header Navigation (Update) --- */
 .site-header .container {
     display: flex;

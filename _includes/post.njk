@@ -7,4 +7,16 @@ layout: base.njk
   <div class="post-content">
     {{ content | safe }}
   </div>
+
+  <nav class="post-navigation">
+    {% set prev = collections.posts | getPreviousCollectionItem(page) %}
+    {% set next = collections.posts | getNextCollectionItem(page) %}
+    {% if prev %}
+      <a href="{{ prev.url }}">← Previous</a>
+    {% endif %}
+    <a href="/">Back to Home</a>
+    {% if next %}
+      <a href="{{ next.url }}">Next →</a>
+    {% endif %}
+  </nav>
 </article>
