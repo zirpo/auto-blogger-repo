@@ -153,6 +153,18 @@ main {
     font-style: italic;
 }
 
+.post-content ul,
+.post-content ol {
+    margin-left: 1.25rem;
+    margin-bottom: 1.5rem;
+    list-style: none;
+    padding-left: 0;
+}
+
+.post-content li {
+    margin-bottom: 0.5rem;
+}
+
 /* --- Header Navigation (Update) --- */
 .site-header .container {
     display: flex;
