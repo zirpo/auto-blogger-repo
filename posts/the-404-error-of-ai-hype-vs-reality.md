@@ -1,7 +1,7 @@
 ---
 title: "The 404 Error Of Ai Hype Vs Reality"
 date: 2025-07-26
-layout: base.njk
+layout: post
 ---
 # The 404 Error of AI: Hype vs. Reality
 

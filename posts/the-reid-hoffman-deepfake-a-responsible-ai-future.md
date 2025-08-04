@@ -1,7 +1,7 @@
 ---
 title: "The Reid Hoffman Deepfake A Responsible Ai Future"
 date: 2025-08-01
-layout: base.njk
+layout: post
 ---
 # The Reid Hoffman Deepfake: A Responsible AI Future?
 
