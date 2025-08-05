@@ -31,6 +31,15 @@ module.exports = function(eleventyConfig) {
     return content.slice(0, 180) + "...";
   });
 
+  // Custom filter to extract the first image source for a thumbnail
+  eleventyConfig.addFilter("postThumbnail", (post) => {
+    if (!post || !post.templateContent) {
+      return "";
+    }
+    const match = post.templateContent.match(/<img\s+[^>]*src=['"]([^'"]+)['"][^>]*>/i);
+    return match ? match[1] : "";
+  });
+
   // Passthrough copy for static assets
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("images");
@@ -41,5 +50,6 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: { input: ".", includes: "_includes", output: "_site" },
+    markdownTemplateEngine: "njk",
   };
 };
