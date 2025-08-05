@@ -69,9 +69,6 @@ main {
     background-color: var(--alt-background-color);
     border-bottom: 1px solid var(--border-color);
     padding: 1rem 0;
-}
-
-.site-header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -196,17 +193,7 @@ main {
     font-weight: 500;
 }
 
-/* --- Header Navigation (Update) --- */
-.site-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.site-navigation {
-    margin-left: auto; /* Pushes the navigation to the right */
-}
-
+/* --- Header Navigation --- */
 .site-navigation ul {
     list-style: none;
     margin: 0;
