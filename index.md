@@ -5,7 +5,7 @@ layout: base.njk
 # Latest Posts
 
 <ul class="post-list">
-{%- for post in collections.post | reverse -%}
+{%- for post in collections.post -%}
   <li class="post-list-item">
     {% set thumb = post | postThumbnail %}
     {% if thumb %}
