@@ -6,7 +6,7 @@
 - The index page correctly lists all blog posts.
 - Individual post pages are rendered correctly using the base layout.
 - The "About Me" page has been created and linked in the navigation, and its layout has been redesigned for a professional appearance.
-- The "Now" page has been created and linked in the navigation, with appropriate styling.
+- The "Now" page has been created and linked in the navigation, with appropriate styling, and has been restructured with a card-based layout for improved readability and visual organization, with its visual distortion fixed.
 - Social connection links have been added to the footer as per "Change Request: BLOG-04".
 - Dates on the homepage and individual blog posts are now correctly formatted using `luxon`, resolving previous build errors.
 - The site now has a distinct visual identity with a unique color scheme and professional typography, as per "Change Request: BLOG-06".
@@ -19,8 +19,8 @@
 - The correct footer with social links and proper styling has been restored to the main blog and posts.
 - The `_includes/base.njk` file has been reverted to the correct version from "Change Request: BLOG-09", and duplicate footer CSS has been removed from `css/style.css`.
 - The site title has been updated to "AIficionado".
-- The "Impressum" link has been removed from the main navigation menu.
-- The navigation menu has been aligned to the right (still needs further adjustment).
+- The "Impressum" link is removed from the main navigation menu.
+- The navigation menu is aligned to the right (still needs further adjustment).
 - The homepage now features the latest post in a prominent section, and all other posts are correctly displayed.
 
 ## What's Left to Build
@@ -33,7 +33,7 @@
 - The memory bank has been fully initialized and updated to reflect the "Now" page implementation.
 - The Eleventy build errors have been resolved.
 - The "About Me" page has been implemented according to "Change Request: BLOG-02", and its layout has been redesigned.
-- The "Now" page has been implemented according to "Change Request: BLOG-03".
+- The "Now" page has been implemented according to "Change Request: BLOG-03", and its structure has been improved and visual distortion fixed by moving content to `_data/now.json`, creating `_includes/now.njk`, updating `now.md`, and adjusting CSS for equal card heights.
 - The social connection links in the footer have been implemented according to "Change Request: BLOG-04".
 - All changes for "Change Request: BLOG-04" have been implemented and verified.
 - All changes for "Change Request: BLOG-05" have been implemented and verified.

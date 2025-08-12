@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What I'm Doing Now</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <style>
+        :root {
+            --background: oklch(0.98 0 0);
+            --foreground: oklch(0.2 0 0);
+            --primary: oklch(0.55 0.2 250);
+            --muted: oklch(0.96 0 0);
+            --muted-foreground: oklch(0.45 0 0);
+            --border: oklch(0.85 0 0);
+            --radius: 0.75rem;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: var(--background);
+            color: var(--foreground);
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .now-header {
+            margin-bottom: 3rem;
+        }
+
+        .now-header h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: -0.02em;
+        }
+
+        .last-updated {
+            color: var(--muted-foreground);
+            font-size: 0.875rem;
+            margin-top: 0.5rem;
+        }
+
+        .now-grid {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .now-section {
+            background: white;
+            padding: 2rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            transition: all 0.2s ease;
+        }
+
+        .now-section:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header i {
+            color: var(--primary);
+        }
+
+        .section-header h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            margin: 0;
+            font-weight: 600;
+        }
+
+        .section-content {
+            color: var(--foreground);
+            font-size: 1.125rem;
+        }
+
+        .section-content p {
+            margin: 0;
+        }
+
+        .book-list {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .book {
+            background: var(--muted);
+            padding: 1rem;
+            border-radius: var(--radius);
+            flex: 1;
+        }
+
+        .book-title {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .book-author {
+            color: var(--muted-foreground);
+            font-size: 0.875rem;
+        }
+
+        .tool-recommendation {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: var(--muted);
+            border-radius: var(--radius);
+        }
+
+        .tool-icon {
+            background: white;
+            padding: 0.75rem;
+            border-radius: 50%;
+        }
+
+        .tool-details h3 {
+            margin: 0;
+            font-weight: 600;
+        }
+
+        .tool-details p {
+            margin: 0.25rem 0 0 0;
+            font-size: 0.875rem;
+        }
+
+        .footer-note {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted-foreground);
+            font-style: italic;
+        }
+
+        .footer-note a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            .now-header h1 {
+                font-size: 2rem;
+            }
+
+            .book-list {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="now-header">
+            <h1>What I'm Doing Now</h1>
+            <div class="last-updated">Last updated: July 2025</div>
+        </header>
+
+        <div class="now-grid">
+            <section class="now-section">
+                <div class="section-header">
+                    <i data-lucide="target"></i>
+                    <h2>My Focus</h2>
+                </div>
+                <div class="section-content">
+                    <p>By day, I'm a project manager in the telco industry. In my free time, my focus is on practical automation. I'm constantly exploring how I can use AI to streamline my own work and stay informed by consuming a steady diet of relevant articles and podcasts on the topic.</p>
+                </div>
+            </section>
+
+            <section class="now-section">
+                <div class="section-header">
+                    <i data-lucide="book-open"></i>
+                    <h2>Currently Reading</h2>
+                </div>
+                <div class="section-content">
+                    <p>I recently finished Yuval Noah Harari's Nexus, which I found to be a refreshingly sober take on the risks and opportunities of AI.</p>
+                    <div class="book-list">
+                        <div class="book">
+                            <div class="book-title">Nexus</div>
+                            <div class="book-author">by Yuval Noah Harari</div>
+                        </div>
+                        <div class="book">
+                            <div class="book-title">Ilium</div>
+                            <div class="book-author">by Dan Simmons</div>
+                            <div class="book-status">Currently reading</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="now-section">
+                <div class="section-header">
+                    <i data-lucide="help-circle"></i>
+                    <h2>Big Questions on My Mind</h2>
+                </div>
+                <div class="section-content">
+                    <p>I'm currently wondering about the timeline of it all. When does the current financial AI bubble implode? Who will ultimately win the race? And will we start seeing the major societal shifts in the next 5, 10, or 15 years?</p>
+                </div>
+            </section>
+
+            <section class="now-section">
+                <div class="section-header">
+                    <i data-lucide="tool"></i>
+                    <h2>A Tool I Recommend</h2>
+                </div>
+                <div class="section-content">
+                    <div class="tool-recommendation">
+                        <div class="tool-icon">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <div class="tool-details">
+                            <h3>Fabric</h3>
+                            <p>An open-source framework for augmenting human intelligence using AI. Check it out on GitHub.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer-note">
+            <p>(This is a <a href="/now">/now page</a>, and you should make one too.)</p>
+        </footer>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

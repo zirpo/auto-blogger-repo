@@ -1,0 +1,18 @@
+[
+  {
+    "title": "My Focus",
+    "content": "By day, I'm a project manager in the telco industry. In my free time, my focus is on practical automation. I'm constantly exploring how I can use AI to streamline my own work and stay informed by consuming a steady diet of relevant articles and podcasts on the topic."
+  },
+  {
+    "title": "Currently Reading",
+    "content": "I recently finished Yuval Noah Harari's <em>Nexus</em>, which I found to be a refreshingly sober take on the risks and opportunities of AI. Now, I'm diving into the deep end of science fiction with Dan Simmons' <em>Ilium</em>."
+  },
+  {
+    "title": "Big Questions on My Mind",
+    "content": "I'm currently wondering about the timeline of it all. When does the current financial AI bubble implode? Who will ultimately win the race? And will we start seeing the major societal shifts in the next 5, 10, or 15 years?"
+  },
+  {
+    "title": "A Tool I Recommend",
+    "content": "I highly recommend checking out Daniel Miessler's <a href=\"https://github.com/danielmiessler/Fabric\" target=\"_blank\" rel=\"noopener noreferrer\">Fabric</a> project on GitHub. It's an open-source framework for augmenting human intelligence using AI."
+  }
+]

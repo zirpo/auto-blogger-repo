@@ -1,0 +1,19 @@
+---
+layout: base.njk
+---
+
+<div class="page-content">
+  <h1>What I'm Doing Now</h1>
+  <p class="last-updated">Last updated: July 2025</p>
+
+  <div class="now-grid">
+    {% for item in now %}
+    <div class="now-card">
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.content | safe }}</p>
+    </div>
+    {% endfor %}
+  </div>
+
+  <p style="margin-top: 2rem; font-style: italic;">(This is a <a href="https://nownownow.com/about" target="_blank" rel="noopener noreferrer">/now page</a>, and you should make one too.)</p>
+</div>

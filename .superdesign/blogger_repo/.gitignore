@@ -1,0 +1,9 @@
+# Dependencies
+node_modules
+
+# Build-Output
+_site
+
+# macOS
+.DS_Store
+20250726-title-researche-img.node_modules
