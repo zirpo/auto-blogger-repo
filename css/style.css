@@ -264,5 +264,103 @@ main {
     }
 }
 
+/* About Page */
+.about-page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.about-photo img {
+    width: 100%;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+}
+
+.about-info h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.about-info h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem 0;
+}
+
+.interests-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.interests-list li {
+    background: var(--secondary);
+    color: var(--secondary-foreground);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius);
+    font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+    .about-page {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Featured Post */
+.featured-post {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    background: var(--card);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+
+.featured-post img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.featured-post-content {
+    padding: 2rem;
+}
+
+.featured-post-content h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.featured-post-content h2 a {
+    color: var(--foreground);
+    text-decoration: none;
+}
+
+.featured-post-content h2 a:hover {
+    color: var(--primary);
+}
+
+@media (max-width: 768px) {
+    .featured-post {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Add Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
