@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .story-body {
+            font-family: monospace;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+        .nav-link {
+            transition: all 0.2s ease-in-out;
+            color: var(--text-color);
+        }
+        .nav-link.active {
+            background-color: var(--primary-color);
+            color: var(--background-color);
+            font-weight: 600;
+        }
+        .nav-link:not(.active):hover {
+            background-color: var(--primary-color);
+            color: var(--background-color);
+        }
+        .content-section {
+            display: none;
+        }
+        .content-section.active {
+            display: block;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .tab-btn.active {
+            border-color: var(--primary-color);
+            background-color: var(--primary-color);
+            color: var(--background-color);
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .diagram-arrow {
+            position: relative;
+        }
+        .diagram-arrow::after {
+            content: '→';
+            position: absolute;
+            right: -2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2rem;
+            color: var(--muted-text-color);
+        }
+        .pipeline-step {
+            position: relative;
+            padding-bottom: 3rem;
+        }
+        .pipeline-step:not(:last-child)::after {
+            content: '↓';
+            position: absolute;
+            bottom: 0.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2rem;
+            color: var(--muted-text-color);
+        }
+    </style>
+</head>
+<body class="antialiased story-body">
+    <div class="flex flex-col md:flex-row min-h-screen">
+        <aside class="w-full md:w-64 bg-[var(--alt-background-color)] border-r border-[var(--border-color)] p-6">
+            <a href="/" class="text-lg text-[var(--muted-text-color)] hover:text-[var(--primary-color)] transition-colors">← Back to Blog</a>
+            <h1 class="text-2xl font-bold mt-4 mb-8">Project Showcase</h1>
+            <nav id="main-nav" class="flex flex-row md:flex-col gap-2">
+                <a href="#slide1" class="nav-link p-3 rounded-lg text-left w-full">Introduction</a>
+                <a href="#slide2" class="nav-link p-3 rounded-lg text-left w-full">The Problem</a>
+                <a href="#slide3" class="nav-link p-3 rounded-lg text-left w-full">The Solution</a>
+                <a href="#slide4" class="nav-link p-3 rounded-lg text-left w-full">Meet the Team</a>
+                <a href="#slide7" class="nav-link p-3 rounded-lg text-left w-full">The "Magic"</a>
+                <a href="#slide8" class="nav-link p-3 rounded-lg text-left w-full">The Result</a>
+                <a href="#automation" class="nav-link p-3 rounded-lg text-left w-full">Full Automation</a>
+                <a href="#next" class="nav-link p-3 rounded-lg text-left w-full">What's Next?</a>
+                <a href="#slide9" class="nav-link p-3 rounded-lg text-left w-full">Conclusion</a>
+            </nav>
+        </aside>
+
+        <main class="flex-1 p-6 md:p-12 overflow-y-auto">
+            <div id="content-container">
+                {{ content | safe }}
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const contentSections = document.querySelectorAll('.content-section');
+            const mainContent = document.getElementById('content-container');
+
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            const tabContents = document.querySelectorAll('.tab-content');
+
+            function showContent(hash) {
+                const targetId = hash ? hash.substring(1) : 'slide1';
+                let targetFound = false;
+
+                contentSections.forEach(section => {
+                    if (section.id === targetId) {
+                        section.classList.add('active');
+                        targetFound = true;
+                    } else {
+                        section.classList.remove('active');
+                    }
+                });
+                  
+                if (!targetFound) {
+                    document.getElementById('slide1').classList.add('active');
+                }
+
+                navLinks.forEach(link => {
+                    if (link.getAttribute('href') === `#${targetId}`) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                });
+            }
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const hash = this.getAttribute('href');
+                    history.pushState(null, null, hash);
+                    showContent(hash);
+                });
+            });
+
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const tabId = this.dataset.tab;
+
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+
+                    tabContents.forEach(content => {
+                        if (content.id === `${tabId}-content`) {
+                            content.classList.add('active');
+                        } else {
+                            content.classList.remove('active');
+                        }
+                    });
+                });
+            });
+
+            window.addEventListener('popstate', () => {
+                showContent(window.location.hash);
+            });
+
+            showContent(window.location.hash || '#slide1');
+              
+            document.querySelector('.tab-btn[data-tab="kurator"]').click();
+        });
+    </script>
+</body>
+</html>

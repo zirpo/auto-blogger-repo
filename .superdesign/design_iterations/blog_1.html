@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Blog Design</title>
+    <!-- Add Tailwind for base styles -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <style>
+        :root {
+            --background: oklch(0.98 0 0);
+            --foreground: oklch(0.2 0 0);
+            --primary: oklch(0.55 0.2 250);
+            --primary-foreground: oklch(0.98 0 0);
+            --secondary: oklch(0.96 0.03 250);
+            --secondary-foreground: oklch(0.2 0 0);
+            --muted: oklch(0.96 0 0);
+            --muted-foreground: oklch(0.45 0 0);
+            --accent: oklch(0.9 0.03 250);
+            --accent-foreground: oklch(0.2 0 0);
+            --card: oklch(1 0 0);
+            --card-foreground: oklch(0.2 0 0);
+            --border: oklch(0.85 0 0);
+            --radius: 0.75rem;
+        }
+
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: var(--background);
+            color: var(--foreground);
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        .header {
+            background: var(--card);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--foreground);
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--foreground);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: all 0.2s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        /* Main Content */
+        .main {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Featured Post */
+        .featured-post {
+            background: var(--card);
+            border-radius: var(--radius);
+            overflow: hidden;
+            margin-bottom: 4rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: all 0.2s ease;
+        }
+
+        .featured-post:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .featured-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .featured-content {
+            padding: 2rem;
+        }
+
+        .featured-tag {
+            display: inline-block;
+            padding: 0.25rem 1rem;
+            background: var(--secondary);
+            color: var(--primary);
+            border-radius: var(--radius);
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .featured-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+
+        .featured-excerpt {
+            color: var(--muted-foreground);
+            margin-bottom: 2rem;
+            font-size: 1.125rem;
+        }
+
+        .featured-meta {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            color: var(--muted-foreground);
+            font-size: 0.875rem;
+        }
+
+        /* Post Grid */
+        .post-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .post-card {
+            background: var(--card);
+            border-radius: var(--radius);
+            overflow: hidden;
+            transition: all 0.2s ease;
+            border: 1px solid var(--border);
+        }
+
+        .post-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .post-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .post-content {
+            padding: 1.5rem;
+        }
+
+        .post-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .post-excerpt {
+            color: var(--muted-foreground);
+            font-size: 0.875rem;
+            margin-bottom: 1rem;
+        }
+
+        .post-meta {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--muted-foreground);
+            font-size: 0.75rem;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--card);
+            border-top: 1px solid var(--border);
+            padding: 4rem 1rem;
+            margin-top: 6rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 4rem;
+        }
+
+        .footer-section h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            color: var(--muted-foreground);
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-links a {
+            color: var(--foreground);
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--primary);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav {
+                display: none;
+            }
+
+            .featured-title {
+                font-size: 2rem;
+            }
+
+            .featured-image {
+                height: 300px;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">AIFicionado</a>
+            <nav class="nav">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Showcase</a>
+                <a href="#" class="nav-link">Now</a>
+                <a href="#" class="nav-link">Search</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <article class="featured-post">
+            <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80" alt="AI Technology" class="featured-image">
+            <div class="featured-content">
+                <span class="featured-tag">Featured</span>
+                <h1 class="featured-title">The EU AI Act: Level Playing Field or Regulatory Quagmire?</h1>
+                <p class="featured-excerpt">An in-depth analysis of the European Union's ambitious attempt to regulate artificial intelligence and its potential impact on innovation and competition in the tech industry.</p>
+                <div class="featured-meta">
+                    <span>August 7, 2025</span>
+                    <span>•</span>
+                    <span>8 min read</span>
+                </div>
+            </div>
+        </article>
+
+        <div class="post-grid">
+            <article class="post-card">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80" alt="AI Research" class="post-image">
+                <div class="post-content">
+                    <h2 class="post-title">OpenAI's Norwegian Powerhouse: 100,000 GPUs Fueling Europe's AI Future</h2>
+                    <p class="post-excerpt">Inside the massive data center that's reshaping the landscape of AI computing in Europe.</p>
+                    <div class="post-meta">
+                        <span>August 5, 2025</span>
+                        <span>•</span>
+                        <span>6 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="post-card">
+                <img src="https://images.unsplash.com/photo-1675557009875-436c2752c2e5?auto=format&fit=crop&w=800&q=80" alt="AI Ethics" class="post-image">
+                <div class="post-content">
+                    <h2 class="post-title">The Reid Hoffman Deepfake: A Responsible AI Future</h2>
+                    <p class="post-excerpt">Exploring the implications of AI-generated content and the importance of ethical guidelines.</p>
+                    <div class="post-meta">
+                        <span>August 1, 2025</span>
+                        <span>•</span>
+                        <span>5 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="post-card">
+                <img src="https://images.unsplash.com/photo-1676277791608-ac54855c0342?auto=format&fit=crop&w=800&q=80" alt="AI Security" class="post-image">
+                <div class="post-content">
+                    <h2 class="post-title">Gemini's Trojan Horse: How a Calendar Invite Can Hijack Your Smart Home</h2>
+                    <p class="post-excerpt">A deep dive into the latest security vulnerabilities in AI-powered smart home systems.</p>
+                    <div class="post-meta">
+                        <span>July 29, 2025</span>
+                        <span>•</span>
+                        <span>7 min read</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About</h3>
+                <p style="color: var(--muted-foreground); margin-bottom: 1rem;">Exploring the frontiers of artificial intelligence and its impact on society through thoughtful analysis and commentary.</p>
+                <div class="social-links">
+                    <a href="#"><i data-lucide="linkedin"></i></a>
+                    <a href="#"><i data-lucide="github"></i></a>
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                    <a href="#"><i data-lucide="rss"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul class="footer-links">
+                    <li><a href="#">AI Technology</a></li>
+                    <li><a href="#">Ethics & Society</a></li>
+                    <li><a href="#">Industry News</a></li>
+                    <li><a href="#">Research & Development</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Impressum</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>

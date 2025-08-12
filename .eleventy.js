@@ -44,12 +44,19 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("favicon_io");
+  eleventyConfig.addPassthroughCopy("!temp_ignored_files/**");
 
   // This line fixes the layout issue by creating a layout alias.
   eleventyConfig.addLayoutAlias("post", "post.njk");
 
   return {
-    dir: { input: ".", includes: "_includes", output: "_site" },
+    dir: {
+      input: ".",
+      includes: "_includes",
+      data: "_data",
+      output: "_site"
+    },
+    pathPrefix: "/",
     markdownTemplateEngine: "njk",
   };
 };
