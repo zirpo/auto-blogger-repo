@@ -5,7 +5,7 @@ layout: base.njk
 ---
 # Apple's Siri Secret: Why They Might Be Outsourcing to Google
 
-![](/images/20250827-apple-considers-google-gemini-to-power-next-gen-si_img.png)
+![](/images/X20250827-apple-considers-google-gemini-to-power-next-gen-si_img.png)
 
 
 ## The High-Stakes Gamble That Could Reshape the Future of AI Assistants
