@@ -5,7 +5,7 @@ layout: base.njk
 ---
 # The AI Search Wars: How a Tiny Internet Body Could Save the Web
 
-![](/images/the-ai-search-wars-how-a-tiny-internet-body-could-save-the-web_img.png)
+![](/images/flux-prompts-the-ai-search-wars-how-a-tiny-internet-body-could-save-the-web_flux.png)
 
 
 The fight for online content's future is happening now.  It affects everyone.
