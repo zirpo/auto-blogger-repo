@@ -1,7 +1,7 @@
 ---
 title: "The Illusion of Choice: How Privacy Pop-Ups Steal Your Data"
 date: 2025-09-16T08:54:28.542674
-layout: layouts/post.njk
+layout: post.njk
 ---
 
 ![](/images/the-illusion-of-choice-how-privacy-pop-ups-steal-your-data_img.png)
