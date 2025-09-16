@@ -1,7 +1,7 @@
 ---
 title: 'The Quiet Rebellion of "Reject": Reclaiming Your Digital Self'
 date: 2025-09-16T10:39:16.543593
-layout: post.njk
+layout: base.njk
 ---
 
 ![](/images/the-quiet-rebellion-of-reject-reclaiming-your-digital-self_img.png)
