@@ -1,21 +1,20 @@
 ## Core Description
-A marionette puppet, representing a digital identity, is suspended, its form subtly distorted by numerous taut, almost invisible strings stretching beyond the frame. A large, stylized mask, bearing the inscription "We Care About Your Privacy," is positioned prominently in the foreground, partially obscuring the puppet and its unseen connections.
+A vast, self-assembling digital metropolis, shimmering with data streams and algorithmic luminescence, where abstract AI entities endlessly weave its intricate, self-organizing architecture.
 
 ## Artistic References
-*   Surrealist compositions reminiscent of René Magritte, focusing on symbolic objects and obscured elements.
-*   The stark, high-contrast lighting and deep shadows typical of Neo-Noir cinematography.
-*   A blending of early digital art aesthetics with a touch of subtle glitch art, particularly on the puppet's form.
-*   The precise, illustrative quality found in technical schematics, applied to the puppet's construction and string system.
+*   Zdzisław Beksiński's surreal digital landscapes infused with Syd Mead's industrial futurism.
+*   Geometric abstraction meets bioluminescent cybernetics.
+*   The visual aesthetic of Tron: Legacy's digital realms blended with the intricate complexity of M.C. Escher's impossible structures.
 
 ## LoRA Triggers
 *   `v3ctora style`
 *   `style of 80s cyberpunk`
 
 ## Technical Details
-*   **Lighting:** Dramatic backlighting and intense rim lighting sculpt the puppet's silhouette, with a soft, ethereal glow emanating from within the "We Care About Your Privacy" mask. Strategic use of neon accents in deep, saturated purples and electric blues.
-*   **Composition:** A medium close-up, centered on the marionette and the mask. The puppet is angled slightly away, with its form mostly obscured by the prominent mask in the foreground. Numerous fine strings are visible, deliberately leading off-frame, avoiding explicit depiction of hands or fingers.
-*   **Color Scheme:** A dominant palette of deep indigos, charcoal grays, and metallic silvers for the puppet and background. Striking neon accents in magenta and electric blue illuminate edges and details. The mask is a contrasting, luminous pale white with a subtle, internal green glow.
+*   **Lighting:** Volumetric neon glow emanating from data streams and core nodes, diffuse ambient light originating from within the network's pathways, deep shadows contrasting with bright, ephemeral digital pathways.
+*   **Composition:** Dynamic wide-angle perspective looking upwards into the vast, unfolding network, with intricate foreground elements guiding the eye towards an expansive midground; extreme depth of field emphasizing the immense scale.
+*   **Color Scheme:** Dominant vibrant electric blues and purples, contrasting with deep emerald greens and occasional warm orange highlights; dark, shadowy recesses providing visual anchors amidst the luminescence.
 
 ## Conceptual Layers
-*   **Conceptual Blend & Mood:** A profound juxtaposition of perceived autonomy versus unseen, intricate control, exploring themes of digital surveillance and manufactured consent. The mood is one of subtle tension and quiet melancholy.
-*   **Depth & Layers:** The large, enigmatic mask dominates the immediate foreground, partially obscuring the subject. The marionette puppet occupies the midground, its form detailed but strategically composed. The background dissolves into a deep, textural void, hinting at immense, undefined digital space from which the strings emerge.
+*   **Conceptual Blend & Mood:** The raw, organic growth of nature juxtaposed with advanced synthetic intelligence; a profound sense of overwhelming scale and autonomous evolution, transcending human understanding.
+*   **Depth & Layers:** Foreground features dynamically forming data nodes and intricately interwoven pathways; Midground showcases the sprawling, self-constructing architecture of the network teeming with abstract AI entities; Background reveals infinite digital horizons and distant, shimmering computational clusters.
