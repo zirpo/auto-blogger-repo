@@ -1,5 +1,5 @@
 ---
-title: '"We Care About Your Privacy": The Internet's Biggest Lie?'
+title: "\"We Care About Your Privacy\": The Internet's Biggest Lie?"
 date: 2025-09-27T03:10:25.371154
 layout: base.njk
 ---
