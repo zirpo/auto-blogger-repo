@@ -4,7 +4,7 @@ date: 2025-10-03T04:04:32.916526
 layout: base.njk
 ---
 
-![](/images/beyond-book-smarts-why-ai-needs-virtual-playgrounds_img.png)
+![](/images/beyond-book-smarts-why-ai-needs-virtual-playgrounds_img.jpg)
 
 Discover how 'world models' teach AI real-world 'street smarts' for understanding and acting in our physical world.
 

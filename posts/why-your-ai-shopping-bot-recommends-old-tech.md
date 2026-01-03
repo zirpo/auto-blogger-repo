@@ -4,7 +4,7 @@ date: 2025-11-28T05:03:37.514441
 layout: base.njk
 ---
 
-![](/images/why-your-ai-shopping-bot-recommends-old-tech_img.png)
+![](/images/why-your-ai-shopping-bot-recommends-old-tech_img.jpg)
 
 Your digital assistant is smart. But it often misses one key thing: the present. This is why AI shopping can feel stuck in the past.
 

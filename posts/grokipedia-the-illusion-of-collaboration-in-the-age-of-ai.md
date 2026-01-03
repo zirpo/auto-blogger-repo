@@ -4,7 +4,7 @@ date: 2025-12-05T05:04:17.453639
 layout: base.njk
 ---
 
-![](/images/grokipedia-the-illusion-of-collaboration-in-the-age-of-ai_img.png)
+![](/images/grokipedia-the-illusion-of-collaboration-in-the-age-of-ai_img.jpg)
 
 It promises an objective, AI-generated truth. But its 'collaboration' model shows a deeper flaw in how we build knowledge.
 

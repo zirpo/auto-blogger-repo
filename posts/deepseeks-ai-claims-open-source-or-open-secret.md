@@ -4,7 +4,7 @@ date: 2025-12-02T09:20:57.695128
 layout: base.njk
 ---
 
-![](/images/deepseeks-ai-claims-open-source-or-open-secret_img.png)
+![](/images/deepseeks-ai-claims-open-source-or-open-secret_img.jpg)
 
 A new AI claims to be the best. It also promises open access. But hidden rules show a high cost. This makes us rethink "open source." What does it mean for huge AI models?
 

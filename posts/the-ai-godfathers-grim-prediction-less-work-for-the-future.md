@@ -4,7 +4,7 @@ date: 2025-12-09T05:05:12.585785
 layout: base.njk
 ---
 
-![](/images/the-ai-godfathers-grim-prediction-less-work-for-the-future_img.png)
+![](/images/the-ai-godfathers-grim-prediction-less-work-for-the-future_img.jpg)
 
 Geoffrey Hinton, the architect of modern AI, believes we are dangerously unprepared for a huge shift in employment. Here's why his warning matters.
 

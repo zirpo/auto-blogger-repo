@@ -4,7 +4,7 @@ date: 2025-10-07T04:03:44.060277
 layout: base.njk
 ---
 
-![](/images/beyond-human-could-an-ai-win-a-nobel-prize-for-discovery_img.png)
+![](/images/beyond-human-could-an-ai-win-a-nobel-prize-for-discovery_img.jpg)
 
 ## The 'Nobel Turing Challenge' and What Autonomous Scientific Breakthroughs Mean for Humanity.
 

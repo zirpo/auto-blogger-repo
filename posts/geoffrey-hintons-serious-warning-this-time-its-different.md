@@ -4,7 +4,7 @@ date: 2025-11-21T05:04:31.291924
 layout: base.njk
 ---
 
-![](/images/geoffrey-hintons-serious-warning-this-time-its-different_img.png)
+![](/images/geoffrey-hintons-serious-warning-this-time-its-different_img.jpg)
 
 The "Godfather of AI" warns of job loss. He also warns of global chaos. He sees an uncertain future. He suggests what we can do.
 

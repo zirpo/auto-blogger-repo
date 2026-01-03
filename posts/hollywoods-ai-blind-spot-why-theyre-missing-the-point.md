@@ -4,7 +4,7 @@ date: 2025-10-14T04:04:26.128034
 layout: base.njk
 ---
 
-![](/images/hollywoods-ai-blind-spot-why-theyre-missing-the-point_img.png)
+![](/images/hollywoods-ai-blind-spot-why-theyre-missing-the-point_img.jpg)
 
 Silicon Valley builds the future of content. Hollywood debates property lines in a world that no longer exists.
 

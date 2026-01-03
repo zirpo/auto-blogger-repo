@@ -4,7 +4,7 @@ date: 2025-09-26T23:45:49.978558
 layout: base.njk
 ---
 
-![](/images/ai-in-hiring-bringing-humanity-back-to-recruitment_img.png)
+![](/images/ai-in-hiring-bringing-humanity-back-to-recruitment_img.jpg)
 
 Think about the "good old days" of hiring. Many people remember them differently. They were often a constant fight against too many tasks. Imagine tall stacks of resumes on desks. Hundreds of applications filled email inboxes. Each one needed a person to check it. Recruiters spent hours going through huge amounts of data. They often felt lost in paperwork and repeated tasks. They could not focus on building great teams. This hard work was tiring and slow. It wasted much valuable time and talent.
 

@@ -4,7 +4,7 @@ date: 2025-11-14T05:04:24.885228
 layout: base.njk
 ---
 
-![](/images/openais-grand-game-building-the-ai-operating-system_img.png)
+![](/images/openais-grand-game-building-the-ai-operating-system_img.jpg)
 
 For many years, OpenAI meant advanced AI research. It was a lab. It pushed the limits of large language models and generative AI. OpenAI was a leader in new ideas. It focused on building powerful AI models. It also made them easy to use. But look closer. Beneath its impressive models and API tools, a bigger plan exists.
 

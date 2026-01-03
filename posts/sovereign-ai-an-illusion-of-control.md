@@ -4,7 +4,7 @@ date: 2025-10-17T04:04:55.101624
 layout: base.njk
 ---
 
-![](/images/sovereign-ai-an-illusion-of-control_img.png)
+![](/images/sovereign-ai-an-illusion-of-control_img.jpg)
 
 This post explores how countries seek AI independence. It often means trading one dependency for another.
 

@@ -4,7 +4,7 @@ date: 2025-11-04T05:05:32.152835
 layout: base.njk
 ---
 
-![](/images/martin-sues-openai-what-happens-when-ai-gets-too-good_img.png)
+![](/images/martin-sues-openai-what-happens-when-ai-gets-too-good_img.jpg)
 
 This is more than a tech story. This landmark case questions our ideas about creativity. It also challenges copyright and the true value of human art.
 

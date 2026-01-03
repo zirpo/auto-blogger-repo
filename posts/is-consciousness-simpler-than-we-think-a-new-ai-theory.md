@@ -4,7 +4,7 @@ date: 2025-10-31T05:04:15.257668
 layout: base.njk
 ---
 
-![](/images/is-consciousness-simpler-than-we-think-a-new-ai-theory_img.png)
+![](/images/is-consciousness-simpler-than-we-think-a-new-ai-theory_img.jpg)
 
 Forget complex thinking. New research suggests AI consciousness might come from basic feelings. It may not need deep thought at all.
 

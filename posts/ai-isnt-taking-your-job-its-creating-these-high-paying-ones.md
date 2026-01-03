@@ -4,7 +4,7 @@ date: 2025-10-24T04:04:21.312364
 layout: base.njk
 ---
 
-![](/images/ai-isnt-taking-your-job-its-creating-these-high-paying-ones_img.png)
+![](/images/ai-isnt-taking-your-job-its-creating-these-high-paying-ones_img.jpg)
 
 Discover how non-technical skills can open doors to well-paid careers in AI. You don't need a Ph.D.
 

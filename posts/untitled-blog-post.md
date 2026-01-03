@@ -4,7 +4,7 @@ date: 2025-11-07T05:03:40.081957
 layout: base.njk
 ---
 
-![](/images/untitled-blog-post_img.png)
+![](/images/untitled-blog-post_img.jpg)
 
 The Legal Maze: Why Your AI Agent Might Be Skipping Key Sources
 

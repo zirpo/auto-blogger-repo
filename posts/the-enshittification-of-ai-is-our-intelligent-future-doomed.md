@@ -4,7 +4,7 @@ date: 2025-10-21T04:06:16.571704
 layout: base.njk
 ---
 
-![](/images/the-enshittification-of-ai-is-our-intelligent-future-doomed_img.png)
+![](/images/the-enshittification-of-ai-is-our-intelligent-future-doomed_img.jpg)
 
 Cory Doctorow's grim prophecy explains why your favorite apps get worse. Here's why AI might be next – and what's at stake.
 

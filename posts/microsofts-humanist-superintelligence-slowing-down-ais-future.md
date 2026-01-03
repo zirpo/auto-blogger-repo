@@ -4,7 +4,7 @@ date: 2025-11-11T05:04:08.300803
 layout: base.njk
 ---
 
-![](/images/microsofts-humanist-superintelligence-slowing-down-ais-future_img.png)
+![](/images/microsofts-humanist-superintelligence-slowing-down-ais-future_img.jpg)
 
 Microsoft plans to limit its AI for safety. What does this mean for the race?
 

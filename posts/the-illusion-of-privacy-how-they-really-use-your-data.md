@@ -4,7 +4,7 @@ date: 2025-09-16T11:16:12.577471
 layout: base.njk
 ---
 
-![](/images/the-illusion-of-privacy-how-they-really-use-your-data_img.png)
+![](/images/the-illusion-of-privacy-how-they-really-use-your-data_img.jpg)
 
 Unmasking the hidden cost of online "convenience" and reclaiming your digital self.
 

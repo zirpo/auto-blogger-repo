@@ -4,7 +4,7 @@ date: 2025-11-25T05:04:40.536789
 layout: base.njk
 ---
 
-![](/images/when-ai-joins-your-group-chat_img.png)
+![](/images/when-ai-joins-your-group-chat_img.jpg)
 
 The Awkward Reality of AI in Casual Conversations, and Where Its True Utility Lies.
 

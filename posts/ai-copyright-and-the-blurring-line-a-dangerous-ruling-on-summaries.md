@@ -4,7 +4,7 @@ date: 2025-11-18T05:04:15.206334
 layout: base.njk
 ---
 
-![](/images/ai-copyright-and-the-blurring-line-a-dangerous-ruling-on-summaries_img.png)
+![](/images/ai-copyright-and-the-blurring-line-a-dangerous-ruling-on-summaries_img.jpg)
 
 A recent court decision has a troubling message. It suggests explaining a book could be copyright infringement. This sets a dangerous example for creators and critical discussions.
 
